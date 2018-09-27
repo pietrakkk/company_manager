@@ -1,0 +1,65 @@
+[
+  {
+    "model": "company.Company",
+    "pk": 1,
+    "fields": {
+      "name": "Intel Corporation"
+    }
+  },
+  {
+    "model": "company.Office",
+    "pk": 1,
+    "fields": {
+      "company_id": 1,
+      "headquarter": true,
+      "street": "Slowackiego",
+      "postal_code": "80-175",
+      "city": "Gdansk",
+      "monthly_rent": 5000
+    }
+  },
+  {
+    "model": "company.Office",
+    "pk": 2,
+    "fields": {
+      "company_id": 1,
+      "headquarter": false,
+      "street": "Waszyngtona",
+      "postal_code": "80-175",
+      "city": "Warsaw",
+      "monthly_rent": 12000
+    }
+  },
+  {
+    "model": "company.Company",
+    "pk": 2,
+    "fields": {
+      "name": "Lufthansa Systems"
+    }
+  },
+  {
+    "model": "company.Office",
+    "pk": 3,
+    "fields": {
+      "company_id": 2,
+      "headquarter": true,
+      "street": "Mysliwska",
+      "postal_code": "80-175",
+      "city": "Ilawa",
+      "monthly_rent": 4000
+    }
+  },
+  {
+    "model": "company.Office",
+    "pk": 4,
+    "fields": {
+      "company_id": 2,
+      "headquarter": false,
+      "street": "Krakowska",
+      "postal_code": "80-175",
+      "city": "Police",
+      "monthly_rent": 2300
+    }
+  }
+]
+
