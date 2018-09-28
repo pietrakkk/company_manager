@@ -1,6 +1,6 @@
 # Company manager
    
-Application yto manage companies.
+Application to manage companies.
 
 ## Requirements
     virtualenv, python3.6
