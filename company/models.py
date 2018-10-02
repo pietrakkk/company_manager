@@ -27,6 +27,9 @@ class Company(models.Model):
 
         return total_sum['monthly_rent__sum']
 
+    def __str__(self):
+        return self.name
+
 
 class Office(models.Model):
     street = models.CharField('Street', max_length=256, blank=True)

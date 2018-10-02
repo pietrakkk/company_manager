@@ -1,7 +1,6 @@
-# -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-from django.db.models import Prefetch, F, Sum
+from django.db.models import Prefetch
 from rest_framework.decorators import detail_route
 from rest_framework.request import Request
 from rest_framework.response import Response
